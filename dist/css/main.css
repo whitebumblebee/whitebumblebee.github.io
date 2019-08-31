@@ -19,3 +19,8 @@ h2, h3, h4 {
 
 img {
   width: 100%; }
+
+#header-home {
+  background: url("../dist/img/showcase.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: #fff; }
