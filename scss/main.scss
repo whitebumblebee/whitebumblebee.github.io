@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
 // General styles
 * {
@@ -8,7 +9,8 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  // font-family: "Dosis", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -85,7 +87,9 @@ img {
 
     // Header Content
     .header-content {
+      // for my purpose, i dont want header to be aligned at center.
       text-align: center;
+      // padding-top: 10%; for my purpose
       padding-top: 20%;
 
       h1 {
