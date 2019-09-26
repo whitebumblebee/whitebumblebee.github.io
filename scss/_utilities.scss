@@ -20,11 +20,13 @@
     color: #333;
     background-color: $main-color;
   }
+
   &-light {
     @extend %btn-shared;
     color: #333;
     background-color: $light-color;
   }
+
   &-dark {
     @extend %btn-shared;
     color: #f4f4f4;
@@ -36,6 +38,26 @@ button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: $main-color;
+}
+
+// Backgrounds
+.bg {
+  &-main {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+  &-medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
 }
 
 .lead {
