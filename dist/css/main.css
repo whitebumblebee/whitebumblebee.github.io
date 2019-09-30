@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -168,7 +169,7 @@ input[class^="btn-"]:hover {
   padding: 0; }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -192,6 +193,7 @@ img {
   height: 100px;
   color: #fff;
   padding-bottom: 50px;
+  padding-right: 0%;
   text-transform: uppercase; }
 
 #main-nav {
@@ -219,8 +221,8 @@ img {
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
-    text-align: center;
-    padding-top: 10%; }
+    padding-left: 7%;
+    padding-top: 5%; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
