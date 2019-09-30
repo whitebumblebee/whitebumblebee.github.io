@@ -188,9 +188,10 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 200px;
+  height: 100px;
   color: #fff;
+  padding-bottom: 50px;
   text-transform: uppercase; }
 
 #main-nav {
@@ -219,7 +220,7 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 10%; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }

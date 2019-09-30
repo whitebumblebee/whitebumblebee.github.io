@@ -35,9 +35,10 @@ img {
 
 // Logo
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 200px;
+  height: 100px;
   color: #fff;
+  padding-bottom: 50px;
   text-transform: uppercase;
 }
 
@@ -84,7 +85,7 @@ img {
     // Header Content
     .header-content {
       text-align: center;
-      padding-top: 20%;
+      padding-top: 10%;
 
       h1 {
         font-size: 4rem;
