@@ -1,8 +1,11 @@
+// .container {
+//   max-width: $website-width;
+//   padding: 0 1.5rem;
+//   margin: auto;
+//   overflow: hidden;
+// }
 .container {
-  max-width: $website-width;
-  padding: 0 1.5rem;
-  margin: auto;
-  overflow: hidden;
+  z-index: 2;
 }
 
 // Buttons
