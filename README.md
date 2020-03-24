@@ -1,1 +1,2 @@
-#Code for my portfolio website
+# Code for my portfolio website
+Domain registered
